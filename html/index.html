@@ -12,6 +12,33 @@
 </head>
 <body>
     
+    <div class="container mt-5">
+        <form action="" id="myForm">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="titleInput" placeholder="Enter title" required>
+                <label for="titleInput">Title</label>
+            </div>
+            <div class="form-floating">
+                <textarea name="" id="paragraphInput" class="form-control" placeholder="Enter paragraph" style="height: 200px" required></textarea>
+                <label for="paragraphInput">Paragraph</label>
+            </div>
+            <div class="mt-3">
+                <input type="file" class="form-control" id="imageInput" required>
+            </div>
+            <div class="mt-3">
+                <button class="btn btn-success" type="button">Save</button>
+                <button class="btn btn-secondary" type="button">Update</button>
+                <button class="btn btn-danger" type="button">Delete</button>
+                <button class="btn btn-primary" type="button">Read</button>
+            </div>
+        </form>
+
+        <div class="mt-5">
+            <h1>Preview Data</h1>
+            <div id="dataDisplay"></div>
+        </div>
+
+    </div>
 
     <!-- js link  -->
     <script src="../js/script.js"></script>
