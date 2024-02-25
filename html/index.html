@@ -23,13 +23,13 @@
                 <label for="paragraphInput">Paragraph</label>
             </div>
             <div class="mt-3">
-                <input type="file" class="form-control" id="imageInput" required>
+                <input type="file" class="form-control" id="imageInput" accept="image/*" required>
             </div>
             <div class="mt-3">
-                <button class="btn btn-success" type="button">Save</button>
-                <button class="btn btn-secondary" type="button">Update</button>
-                <button class="btn btn-danger" type="button">Delete</button>
-                <button class="btn btn-primary" type="button">Read</button>
+                <button class="btn btn-success" type="button" onclick="insertData()">Save</button>
+                <button class="btn btn-secondary" type="button" onclick="updateData()">Update</button>
+                <button class="btn btn-danger" type="button" onclick="deleteData()">Delete</button>
+                <button class="btn btn-primary" type="button" onclick="readData()">Read</button>
             </div>
         </form>
 
